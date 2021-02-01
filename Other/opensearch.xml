@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Greasy Fork 搜索</ShortName>
+  <Description>搜索 Greasy Fork 上的用户脚本。</Description>
+  <Tags>user scripts userscripts greasemonkey</Tags>
+  <Url type="application/atom+xml" template="https://greasyfork.org/zh-CN/scripts.atom?q={searchTerms}&amp;page={startPage?}"/>
+  <Url type="application/json" template="https://greasyfork.org/zh-CN/scripts.json?q={searchTerms}&amp;page={startPage?}"/>
+  <Url type="application/javascript" template="https://greasyfork.org/zh-CN/scripts.jsonp?q={searchTerms}&amp;page={startPage?}"/>
+  <Url type="text/html" template="https://greasyfork.org/zh-CN/scripts?q={searchTerms}&amp;page={startPage?}"/>
+  <LongName>Greasy Fork 用户脚本搜索</LongName>
+  <Image height="512" width="512" type="image/png">https://cdn.jsdelivr.net/gh/Gongcxgithub/gongcx-fork@main/images/blacklogo512.png</Image>
+  <Image height="128" width="128" type="image/png">https://cdn.jsdelivr.net/gh/Gongcxgithub/gongcx-fork@main/images/blacklogo128.png</Image>
+  <Image height="96" width="96" type="image/png">https://cdn.jsdelivr.net/gh/Gongcxgithub/gongcx-fork@main/images/blacklogo96.png</Image>
+  <Image height="32" width="32" type="image/png">https://cdn.jsdelivr.net/gh/Gongcxgithub/gongcx-fork@main/images/blacklogo32.png</Image>
+  <Image height="16" width="16" type="image/png">https://cdn.jsdelivr.net/gh/Gongcxgithub/gongcx-fork@main/images/blacklogo16.png</Image>
+  <Query role="example" searchTerms="test" />
+  <Attribution>脚本作者保留所有权利，详见各脚本许可协议</Attribution>
+  <SyndicationRight>open</SyndicationRight>
+  <AdultContent>false</AdultContent>
+  <Language>*</Language>
+</OpenSearchDescription>
